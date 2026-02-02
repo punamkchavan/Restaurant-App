@@ -33,6 +33,7 @@ export default function AvailableMeals(){
     const mealList= Dummy_Meals.map((meal)=>(
     <MealsItem 
     key={meal.id} 
+    id={meal.id}
     name={meal.name}
     description={meal.description}
     price={meal.price}
