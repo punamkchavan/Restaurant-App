@@ -5,27 +5,27 @@ import MealsItem from './MealsItems/MealsItem';
 const Dummy_Meals=[
     {
     id: 'm1',
-    name: 'Sushi',
-    description: 'Finest fish and veggies',
-    price: 22.99,
+    name: 'Paplate Thali',
+    description: 'Finest fish and Bhakri with solkadi',
+    price: 250,
   },
   {
     id: 'm2',
-    name: 'Schnitzel',
-    description: 'A german specialty!',
-    price: 16.5,
+    name: 'Ukadiche Modak',
+    description: 'Kokan Special sweet dumplings',
+    price: 50,
   },
   {
     id: 'm3',
-    name: 'Barbecue Burger',
-    description: 'American, raw, meaty',
-    price: 12.99,
+    name: 'Kolambi Vade',
+    description: 'fluffy rice-lentil bread',
+    price: 300,
   },
   {
     id: 'm4',
-    name: 'Green Bowl',
-    description: 'Healthy...and green...',
-    price: 18.99,
+    name: 'Phansachi Bhaji',
+    description: 'A spicy curry made from tender jackfruit',
+    price: 80,
   },
 ]
 export default function AvailableMeals(){

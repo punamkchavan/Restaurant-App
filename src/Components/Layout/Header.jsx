@@ -1,5 +1,5 @@
 import HeaderCartButton from "./HeaderCartButton"
-import mealsImage from '../../assets/KonkaniCuisine.png';
+import mealsImage from '../../assets/image24.jpg';
 import classes from './Header.module.css';
 export default function Header(props){
 

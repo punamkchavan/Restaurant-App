@@ -8,7 +8,7 @@ export default function Cart(props){
 
     const cartCtx = useContext(CartContext);
 
-    const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`;
+    const totalAmount = `RS. ${cartCtx.totalAmount.toFixed(2)}`;
     const hasItems = cartCtx.items.length > 0;
 
     const cartItemRemoveHandler = (id) => {
@@ -41,7 +41,7 @@ export default function Cart(props){
             <div className={classes.total}>
                 <span>Total Amount</span>
                 <span>{totalAmount}</span>
-                </div>
+            </div>
             <div className={classes.actions}>
                 <button className={classes['button--alt']} onClick={props.onClose}>Close</button>
                 {hasItems && <button className={classes.button}>Order</button>}
