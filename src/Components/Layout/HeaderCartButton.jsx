@@ -5,7 +5,7 @@ import { useContext, useEffect, useState } from "react";
 
 
 export default function HeaderCartButton(props){
-    const [btnIsHighlighted, setBtnIsHighlighted] = useState(false);
+  const [btnIsHighlighted, setBtnIsHighlighted] = useState(false);
   const cartCtx = useContext(CartContext);
 
   const { items } = cartCtx;
